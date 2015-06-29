@@ -7,5 +7,17 @@ public class BaseCharacter{
 	private int stamina;
 	private int intelligence;
 	private int endourance;
+	private int experience;
+	private int level;
+
+	public string CharacterName{
+		get{ return characterName; }
+		set{ characterName = value; }
+	}
+
+	public string CharacterDescription{
+		get{ return characterDescription; }
+		set{ characterDescription = value; }
+	}
 
 }
