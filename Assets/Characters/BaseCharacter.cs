@@ -8,6 +8,7 @@ public class BaseCharacter{
 	private int stamina;
 	private int intelligence;
 	private int endourance;
+	private int strength;
 
 	private int experience;
 	private int level;
@@ -20,6 +21,7 @@ public class BaseCharacter{
 		get{ return characterDescription; }
 		set{ characterDescription = value; }
 	}
+
 	public int Stamina{
 		get{ return stamina; }
 		set{ stamina = value; }
@@ -32,6 +34,11 @@ public class BaseCharacter{
 		get{ return endourance; }
 		set{ endourance = value; }
 	}
+	public int Strength{
+		get{ return strength; }
+		set{ strength = value; }
+	}
+
 	public int Experience{
 		get{ return experience; }
 		set{ experience = value; }
