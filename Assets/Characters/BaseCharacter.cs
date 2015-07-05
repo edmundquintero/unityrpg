@@ -13,6 +13,10 @@ public class BaseCharacter{
 	private int experience;
 	private int level;
 
+	private int statPointsToAllocate;
+
+	public int StatePointToAllocate{ get; set; }
+
 	public string CharacterName{
 		get{ return characterName; }
 		set{ characterName = value; }
