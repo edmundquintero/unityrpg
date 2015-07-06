@@ -7,9 +7,9 @@ public class baseWarriorCharacter : BaseCharacter {
 		CharacterName = "Warrior";
 		CharacterDescription = "Weapon weilding individual.";
 
-		Intelligence = 3;
+		Intelligence.Value = 3;
 		Endourance = 7;
-		Stamina = 12;
+		Stamina.Value = 12;
 		Strength = 15;
 
 		Experience = 0;

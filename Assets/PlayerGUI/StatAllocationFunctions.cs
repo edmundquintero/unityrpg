@@ -3,8 +3,8 @@ using System.Collections;
 
 public class StatAllocationGUI {
 
-	private string[] stats = string[] {"Stamina", "Intelegence", "Strength"}
-	private string[] statDescription = string[] {"Health", "Mana", "Attack"}
+	private string[] stats = new string[] {"Stamina", "Intelegence", "Strength"};
+	private string[] statDescription = new string[] {"Health", "Mana", "Attack"};
 
 
 

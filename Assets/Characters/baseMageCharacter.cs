@@ -1,15 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class baseMageCharacter : BaseCharacter {
+public class BaseMageCharacter : BaseCharacter {
 
-	public void MageClass(){
+	public BaseMageCharacter(){
 		CharacterName = "Mage";
 		CharacterDescription = "Magic weilding individual.";
 
-		Intelligence = 10;
+		Intelligence.Value = 10;
 		Endourance = 5;
-		Stamina = 8;
+		Stamina.Value = 8;
 		Strength = 3;
 
 		Experience = 0;
